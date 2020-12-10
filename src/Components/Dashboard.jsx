@@ -170,7 +170,8 @@ const Dashboard = () => {
                                     onDragEnter={dragEnter}
                                     onDragLeave={dragLeave}
                                     onDrop={fileDrop}
-                                    onClick={fileInputClicked}>
+                                    onClick={fileInputClicked}
+                                >
                                     <div className="drop-message">
                                         <div className="upload-icon"></div>
                                         Drag & Drop files here or click to select file(s)
