@@ -2,7 +2,6 @@ import React from 'react'
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import { Route, Switch, BrowserRouter, Redirect } from "react-router-dom";
-import Dashboard from './Components/Dashboard';
 import Dashboard2 from './Components/Dashboard2';
 class App extends React.Component {
   render() {
@@ -13,8 +12,7 @@ class App extends React.Component {
             <Route exact path="/">
               <Redirect to="/home" />
             </Route>
-            <Route path="/home" exact component={Dashboard} />
-            <Route path="/home2" exact component={Dashboard2} />
+            <Route path="/home" exact component={Dashboard2} />
           </Switch>
         </div>
       </BrowserRouter>

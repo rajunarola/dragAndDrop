@@ -411,3 +411,45 @@ button:focus {
     margin: 10px 0 10px 0;
   }
 }
+
+.ant-btn {
+  color: #4aa1f3;
+  text-transform: capitalize;
+  outline: none;
+  margin-bottom: 0;
+  font-weight: 500;
+  border-radius: 10px !important;
+  display: inline-block;
+  border: 1px solid #4aa1f3;
+}
+
+.ant-btn:hover {
+  color: #fff;
+  outline: none;
+  border-radius: 10px;
+  display: inline-block;
+  border: 1px solid #4aa1f3;
+  background-color: #1347fd;
+}
+
+.ant-btn-primary {
+  color: #fff;
+  outline: none;
+  border-radius: 10px;
+  display: inline-block;
+  border-radius: 10px !important;
+  border: 1px solid #4aa1f3;
+  background-color: #1347fd;
+}
+
+.ant-btn-primary:hover {
+  background-color: #1347fd;
+  border: 1px solid #1347fd;
+}
+
+.travelcompany-input {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+}
